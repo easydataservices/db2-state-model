@@ -114,6 +114,7 @@ db2 -td@ -f module_SUBSCRIPTION/function_GET_TRANSITIONS_FOR_ALL.sql
 db2 -td@ -f module_SUBSCRIPTION/function_GET_TRANSITIONS_FOR_CODE.sql
 db2 -td@ -f module_SUBSCRIPTION/function_GET_BACKTRACK_TRANSITIONS.sql
 db2 -td@ -f module_SUBSCRIPTION/function_GET_TRANSITIONS.sql
+db2 -td@ -f module_SUBSCRIPTION/function_GET_LAST_TRANSITION.sql
 db2 -td@ -f module_SUBSCRIPTION/procedure_SET_LAST_TRANSITION.sql
 db2 -td@ -f module_SUBSCRIPTION/procedure_ADD_BACKTRACK_TRANSITION_RANGE.sql
 db2 -td@ -f module_SUBSCRIPTION/procedure_REMOVE_BACKTRACK_TRANSITION.sql

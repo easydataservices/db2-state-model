@@ -26,6 +26,10 @@ PUBLISH FUNCTION get_transitions(p_subscription_id INTEGER)
     is_committed BOOLEAN
   );
 
+-- Retrieve last processed transition.
+ALTER MODULE subscription
+PUBLISH FUNCTION get_last_transition(p_subscription_id INTEGER) RETURNS BIGINT;
+
 -- Acknowledge last processed transition.
 ALTER MODULE subscription
 PUBLISH PROCEDURE set_last_transition(p_subscription_id INTEGER, p_transition_id BIGINT);
